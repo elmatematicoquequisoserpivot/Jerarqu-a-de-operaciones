@@ -111,7 +111,7 @@ $(document).ready(function () {
       if (level ===8){
         let y = Math.floor(Math.random() * 10) + 1;
         let z = Math.floor(Math.random() * 10) + 1;
-        let x = Math.floor(Math.random() * 10)) + 1 + y*z;
+        let x = Math.floor(Math.random() * 10) + 1 + y*z;
         let correctAnswer = x - y * z;
         problems.push({ x, y, z, correctAnswer, level });
       }
