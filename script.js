@@ -40,7 +40,7 @@ $(document).ready(function () {
         level = numeros[indiceAleatorio];
       }
       if (aleatorio === 26)
-      { let numeros = [1,2,3,4,5,6,7,8,9,10,11,12,21,22,23,24];
+      { let numeros = [1,2,3,4,5,6,7,9,10,11,12,21,22,23,24];
         let indiceAleatorio = Math.floor(Math.random() * numeros.length);
         level = numeros[indiceAleatorio];
       }
@@ -55,7 +55,7 @@ $(document).ready(function () {
         level = numeros[indiceAleatorio];
       }
       if (aleatorio === 29)
-      { let numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
+      { let numeros = [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
         let indiceAleatorio = Math.floor(Math.random() * numeros.length);
         level = numeros[indiceAleatorio];
       }
@@ -108,13 +108,13 @@ $(document).ready(function () {
         let correctAnswer = x * y - z;
         problems.push({ x, y, z, correctAnswer, level });
       }
-      if (level ===8){
-        let y = Math.floor(Math.random() * 10) + 1;
-        let z = Math.floor(Math.random() * 10) + 1;
-        let x = Math.floor(Math.random() * 10) + 1 + y*z;
-        let correctAnswer = x - y * z;
-        problems.push({ x, y, z, correctAnswer, level });
-      }
+     // if (level ===8){
+       // let y = Math.floor(Math.random() * 10) + 1;
+        //let z = Math.floor(Math.random() * 10) + 1;
+        //let x = Math.floor(Math.random() * 10) + 1 + y*z;
+        //let correctAnswer = x - y * z;
+        //problems.push({ x, y, z, correctAnswer, level });
+      //}
       if (level ===9){
         let y = Math.floor(Math.random() * 10) + 1;
         let x = (Math.floor(Math.random() * 10) + 1)*y;
