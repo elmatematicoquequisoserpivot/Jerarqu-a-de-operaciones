@@ -114,7 +114,7 @@ $(document).ready(function () {
         let x = Math.floor(Math.random() * 10) + 1 + y*z;
         let correctAnswer = x - y * z;
         problems.push({ x, y, z, correctAnswer, level });
-      //}
+      }
       if (level ===9){
         let y = Math.floor(Math.random() * 10) + 1;
         let x = (Math.floor(Math.random() * 10) + 1)*y;
